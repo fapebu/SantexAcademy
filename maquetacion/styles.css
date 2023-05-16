@@ -2,13 +2,13 @@ html{
     font-size: 100%;
 }
 body {
-    /*background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01.jpg);
+   /* background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    */
+    background-size: cover;*/
     background-color: white;
     margin: 0;
-        padding: 0;
+    padding: 0;
+    
     }
 nav 
     {
@@ -67,7 +67,7 @@ ul {
     color: white;
 }
 .contenido {
-    padding-top: 90px;
+    padding-top: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -80,4 +80,34 @@ ul {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 0.87rem;
+    padding: 0rem 1.1rem;
+}
+
+.sumate-buttom{
+    margin-left: 1.3rem;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color:blueviolet;
+    font-size: 0.82rem;
+    padding: 0.6rem 1.4rem;
+    text-decoration: none;
+    border-radius: 26px;
+    border: solid blueviolet 2px;
+    text-align: center;
+}
+.sumate-buttom:hover{
+    background: blueviolet;
+    color: white;
+}
+#div-buttoms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+
 }
