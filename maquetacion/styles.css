@@ -2,9 +2,9 @@ html{
     font-size: 100%;
 }
 body {
-   /* background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01.jpg);
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01.jpg);
     background-attachment: fixed;
-    background-size: cover;*/
+    background-size: cover;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -58,7 +58,6 @@ ul {
     color: #000000;
     font-size: 0.82rem;
     padding: 0.6rem 1.4rem;
-    text-decoration: none;
     border-radius: 26px;
     border: solid #000000 2px;
 }
@@ -73,6 +72,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-color: white;
   }
 .titulo{
     margin: 0% 28.5rem;
@@ -110,4 +110,143 @@ ul {
     margin-bottom: 0.5rem;
     padding: 1rem;
 
+}
+
+#div-impacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #000000;
+    width: 100%;
+}
+.impacto-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #000000;
+    
+}
+.impacto-titulo{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:  2em;
+}
+.impacto-parrafo{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    width: 23.8rem;
+    line-height: 21px;
+    
+}
+#contador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #000000;
+}
+#contador-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #000000;
+}
+.contador-numero{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3.13rem;
+}
+.contador-texto{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.88rem;
+}
+
+#back{
+    width: 100%;
+    height: 33rem;
+}
+
+.programa-titulo{
+    color:#000000;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:  2em;
+}
+
+#div-programa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+
+}
+.programa-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+
+}
+
+.div-imagen img{
+    border-radius: 0px 40px 40px 40px;
+    width: 100%;
+    height: auto;
+}
+
+.programa-parrafo{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    width: 23.8rem;
+    line-height: 21px;
+    
 }
