@@ -280,6 +280,34 @@ ul {
 .programa-texto-left{
     margin-left: 9rem;
 }*/
+@media (min-width: 1968px) and (max-width: 2100px) {
+    #div-programa{
+        width: 54%;
+    }
+}
+@media (min-width: 1659px) and (max-width: 1968px) {
+    #div-programa{
+        width: 65%;
+    }
+}
+
+@media (min-width: 1490px) and (max-width: 1659px) {
+    
+    #div-programa{
+        width: 72%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1490px) {
+    #div-programa{
+        width: 89%;
+    }
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+    #div-programa{
+        width: 100%;
+    }
+}
+
 .img-logo{
     width: 11rem;
 }
